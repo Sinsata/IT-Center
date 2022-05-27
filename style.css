@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: url('./bg-textureX.png') #323244;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+section {
+  min-height: 100vh;
+}
+
+a {
+  color: #2C82C0;
+  transition: 0.3s ease all;
+}
+a:hover {
+  color: #fff;
+}
+
+.container {
+  width: 75%;
+  padding-top: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a2066;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px #0002;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  letter-spacing: 1.5px;
+}
+
+h5 {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff8;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  text-align: center;
+  color: #2C82C0;
+}
+
+.home__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.home__title {
+  width: 500px;
+  height: 400px;
+  background: #2C82C066;
+  border-radius: 0 0 30px 30px;
+  border: 1px solid #2C82C066;
+  transition: 0.5s ease all;
+}
+
+.home__title:hover {
+  background: transparent;
+}
+
+.home__title h5 {
+  margin: 0;
+  color: #fff;
+  text-align: left;
+  background: #272746;
+  padding: 2.5rem 1rem;
+  border-radius: 0 0 30px 30px;
+}
+
+.home__title ul {
+  list-style: inside decimal;
+  padding: 0 1rem;
+}
+
+.home__title ul li {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.home__title ul li:first-child {
+  margin-top: 1.5rem;
+}
